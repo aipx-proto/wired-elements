@@ -3,13 +3,6 @@ Hand-drawn sketchy Floating Action Button (FAB)
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredFab } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-fab id="btn1">
   <mwc-icon>favorite</mwc-icon>

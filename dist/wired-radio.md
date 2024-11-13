@@ -3,13 +3,6 @@ Hand-drawn sketchy radio button web component. Usually used with `wired-radio-gr
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredRadio } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-radio>Radio One</wired-radio>
 <wired-radio checked>Radio Two</wired-radio>

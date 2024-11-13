@@ -3,13 +3,6 @@ Hand-drawn sketchy spinner to show progress or a pending task.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredSpinner } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-spinner id="sp"></wired-spinner>
 <wired-spinner spinning duration="1000"></wired-spinner>

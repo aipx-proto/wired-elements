@@ -4,13 +4,6 @@ Calendar control with a hand-drawn, wireframe like, style.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredCalendar } from 'wired-elements/lib/wired-calendar.js';
-```
-
-Use it in your HTML:
 ```html
 <wired-calendar selected="Jul 4, 2019">
 </wired-calendar>

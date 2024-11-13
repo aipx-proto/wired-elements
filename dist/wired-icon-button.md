@@ -4,13 +4,6 @@ This is a hand-drawn sketchy round button with an image placed at the center. Im
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredIconButton } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-icon-button>
   <mwc-icon>favorite</mwc-icon>

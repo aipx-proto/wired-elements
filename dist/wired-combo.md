@@ -4,13 +4,6 @@ Combobox control - similar to a native browser select element; with a hand-drawn
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredCombo } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-combo id="combo" selected="two">
   <wired-item value="one">Number One</wired-item>

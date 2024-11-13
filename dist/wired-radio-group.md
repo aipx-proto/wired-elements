@@ -3,13 +3,6 @@ Allows user to select at most one radio button from a set. Works with `wired-rad
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredRadioGroup, WiredRadio } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-radio-group selected="two">
   <wired-radio name="one">One</wired-radio>

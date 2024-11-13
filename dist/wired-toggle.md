@@ -3,13 +3,6 @@ Hand-drawn sketchy toggle button / switch.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredToggle } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-toggle></wired-toggle>
 <wired-toggle checked></wired-toggle>

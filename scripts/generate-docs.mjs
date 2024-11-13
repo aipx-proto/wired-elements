@@ -12,13 +12,21 @@ async function main() {
       const fullpath = path.resolve(`docs/${file}`);
       const mdRaw = await fs.readFile(fullpath, "utf-8");
 
-      const transform = pipe(removePreamble, removePostamble, removeMarketingLine, removeUsagePreamble, simplifyImport, normalizeSpaces);
+      const transform = pipe(removePreamble, removePostamble, removeMarketingLine, removeUsagePreamble, normalizeSpaces);
 
       const output = transform(mdRaw);
 
       await fs.writeFile(path.resolve("dist", file), output);
+
+      return output;
     })
   );
+
+  // generate a combined version
+
+  const combined = transformedFiles.join("\n\n");
+
+  await fs.writeFile(path.resolve("dist", "index.md"), combined);
 }
 
 function removePreamble(input) {
@@ -39,13 +47,8 @@ function removeMarketingLine(input) {
 }
 
 function removeUsagePreamble(input) {
-  // remove all text from the line below ## Usage to the line above "Import module"
-  return input.replace(/## Usage.*\n.*Import module/s, "## Usage\n\nImport module");
-}
-
-function simplifyImport(input) {
-  // remove all the text that matches multiline pattern `// or\nimport...\n\`\`\``
-  return input.replace(/(\/\/ or\nimport.*?```)/s, "```").replace(/Or load.*?```html.*?```/s, "");
+  // remove all text from the line below ## Usage to the last instance of ```html
+  return input.replace(/## Usage.*\n.*```html/s, "## Usage\n\n```html");
 }
 
 function normalizeSpaces(input) {

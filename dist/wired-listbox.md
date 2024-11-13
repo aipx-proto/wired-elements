@@ -4,13 +4,6 @@ A listbox control with Wired hand-drawn styling. The selected item is highlighte
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredListbox } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
  <wired-listbox id="combo" selected="two">
   <wired-item value="one">Number One</wired-item>

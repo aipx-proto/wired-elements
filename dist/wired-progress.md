@@ -3,13 +3,6 @@ Hand-drawn sketchy progress bar web component.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredProgress } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-progress value="25"></wired-progress>
 <wired-progress value="10" min="5" max="15"></wired-progress>

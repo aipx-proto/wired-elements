@@ -3,13 +3,6 @@ Hand-drawn sketchy progress-ring web component.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredProgressRing } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-progress-ring value="25"></wired-progress-ring>
 <wired-progress-ring value="10" min="5" max="15"></wired-progress-ring>

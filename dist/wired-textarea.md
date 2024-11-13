@@ -3,13 +3,6 @@ Hand-drawn sketchy multi-line text input web component.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredTextarea } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-textarea placeholder="Enter text" rows="6"></wired-textarea>
 ```

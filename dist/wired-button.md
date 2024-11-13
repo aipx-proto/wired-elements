@@ -3,13 +3,6 @@ Hand-drawn sketchy Button web component.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredButton } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-button>Click Me</wired-button>
 <wired-button disabled>Disabled</wired-button>

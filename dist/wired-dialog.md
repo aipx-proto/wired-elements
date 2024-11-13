@@ -3,14 +3,6 @@ Hand-drawn sketchy Dialog web component.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredDialog } from 'wired-elements';
-```
-
-Use it in your HTML:
-
 ```html
 <wired-dialog>
   <p>

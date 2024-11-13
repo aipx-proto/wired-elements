@@ -6,13 +6,6 @@ Range can be set using the min, max value. Default range is 0-100.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredSlider } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-slider></wired-slider>
 <wired-slider disabled></wired-slider>

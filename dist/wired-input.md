@@ -3,13 +3,6 @@ Hand-drawn sketchy text input web component.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredInput } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-input></wired-input>
 <wired-input placeholder="Enter name"></wired-input>

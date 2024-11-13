@@ -3,13 +3,6 @@ Hand-drawn sketchy Tabs web component.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredTabs, WiredTab } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-tabs selected="Two">
   <wired-tab name="One">

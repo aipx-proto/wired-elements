@@ -3,13 +3,6 @@ Hand-drawn sketchy Anchor/Link web component.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredLink } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-link href="/more.html">Learn more</wired-link>
 <wired-link elevation="3" href="/more.html" target="_blank">Elevation</wired-link>

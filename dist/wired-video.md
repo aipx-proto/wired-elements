@@ -4,13 +4,6 @@ A hand-drawn sketchy looking video player component.
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredVideo } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-video autoplay muted loop src="video.mp4"></wired-video>
 ```

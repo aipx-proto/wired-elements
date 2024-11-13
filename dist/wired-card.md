@@ -4,13 +4,6 @@ wired-card is a container for other web elements - with a hand-drawn, wireframe 
 
 ## Usage
 
-Import module in your code:
-
-```javascript
-import { WiredCard } from 'wired-elements';
-```
-
-Use it in your HTML:
 ```html
 <wired-card>
   <p>Elevation: 1</p>
